@@ -1,0 +1,116 @@
+:root {
+  --yellow-logo-color: #fdff00;
+  --black-logo-color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(60deg, #303030, #000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;  /* main-axis, for dir=row -> left to right */
+  align-items: center;      /* cross-axis */
+}
+
+.oval {
+  width: 230px;
+  height: 130px;
+  background-color: var(--yellow-logo-color);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 3px solid var(--black-logo-color);
+}
+
+.logo {
+  position: absolute;
+  width: 212px;
+  height: 112px;
+  background-color: var(--black-logo-color);
+  border-radius: 50%;
+}
+
+
+/* BOTTOM PART OF SYMBOL */
+
+.o1 {
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 67px;
+  left: 44px;
+  rotate: -41deg; /* transform: rotate(-41deg); */
+}
+
+.o2 {
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 67px;
+  right: 44px;
+  rotate: 41deg; /* transform: rotate(41deg); */
+}
+
+.o3 {
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  top: 73px;
+  left: 68px;
+  rotate: -15deg; /* transform: rotate(-15deg); */
+}
+
+.o4 {
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  top: 73px;
+  right: 68px;
+  rotate: 15deg; /* transform: rotate(15deg); */
+}
+
+
+/* TOP PART OF SYMBOL */
+
+.o5 {
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 37px;
+  height: 40px;
+  border-radius: 50% 0% 50% 50%;
+  top: 0;
+  left: 57px;
+}
+
+.o6 {
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 37px;
+  height: 40px;
+  border-radius: 0% 50% 50% 50%;
+  top: 0;
+  right: 57px;
+}
+
+.ears {
+  position: absolute;
+  top: 0;
+  left: 94px;
+  width: 12px;
+  border-bottom: 12px solid var(--yellow-logo-color);
+  border-left: 6px solid var(--black-logo-color);
+  border-right: 6px solid var(--black-logo-color);
+  rotate: 180deg; /* transform: rotate(180deg); */
+}
