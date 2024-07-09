@@ -13,7 +13,7 @@ This project is inspired by a video from the YouTube channel [One Person Studio]
 
 ## 🌐 Live Demo
 
-Check out the live version of this project [here](https://chris-cartaya.github.io/batman-symbol/).
+Check out the live version of this project here: [https://chris-cartaya.github.io/batman-symbol/](https://chris-cartaya.github.io/batman-symbol/).
 
 ## 🖼️ Screenshot
 
