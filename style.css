@@ -35,56 +35,9 @@ body {
 }
 
 
-/* BOTTOM PART OF SYMBOL */
-
-.o1 {
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 33px;
-  height: 70px;
-  border-radius: 50%;
-  top: 67px;
-  left: 44px;
-  rotate: -41deg; /* transform: rotate(-41deg); */
-}
-
-.o2 {
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 33px;
-  height: 70px;
-  border-radius: 50%;
-  top: 67px;
-  right: 44px;
-  rotate: 41deg; /* transform: rotate(41deg); */
-}
-
-.o3 {
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 38px;
-  height: 70px;
-  border-radius: 50%;
-  top: 73px;
-  left: 68px;
-  rotate: -15deg; /* transform: rotate(-15deg); */
-}
-
-.o4 {
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 38px;
-  height: 70px;
-  border-radius: 50%;
-  top: 73px;
-  right: 68px;
-  rotate: 15deg; /* transform: rotate(15deg); */
-}
-
-
 /* TOP PART OF SYMBOL */
 
-.o5 {
+.top-left-oval { /*top-left-oval -> o5*/
   position: absolute;
   background-color: var(--yellow-logo-color);
   width: 37px;
@@ -94,7 +47,7 @@ body {
   left: 57px;
 }
 
-.o6 {
+.top-right-oval { /*top-right-oval -> o6*/
   position: absolute;
   background-color: var(--yellow-logo-color);
   width: 37px;
@@ -114,3 +67,51 @@ body {
   border-right: 6px solid var(--black-logo-color);
   rotate: 180deg; /* transform: rotate(180deg); */
 }
+
+
+/* BOTTOM PART OF SYMBOL */
+
+.bottom-left-outer-oval { /*bottom-left-outer-oval -> o1*/
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 67px;
+  left: 44px;
+  rotate: -41deg; /* transform: rotate(-41deg); */
+}
+
+.bottom-right-outer-oval { /*bottom-right-outer-oval -> o2*/
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 67px;
+  right: 44px;
+  rotate: 41deg; /* transform: rotate(41deg); */
+}
+
+.bottom-left-inner-oval { /*bottom-left-inner-oval -> o3*/
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  top: 73px;
+  left: 68px;
+  rotate: -15deg; /* transform: rotate(-15deg); */
+}
+
+.bottom-right-inner-oval { /*bottom-right-inner-oval -> o4*/
+  position: absolute;
+  background-color: var(--yellow-logo-color);
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  top: 73px;
+  right: 68px;
+  rotate: 15deg; /* transform: rotate(15deg); */
+}
+
