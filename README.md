@@ -31,7 +31,7 @@ Feel free to use this project as a reference for your own HTML and CSS projects 
 
 ## 🎨 Credits
 
-- [One Person Studio](https://www.youtube.com/@onepersonstudio) for the original inspiration and tutorial.
+- [One Person Studio](https://www.youtube.com/@OnePersonStudioo) for the original inspiration and tutorial.
 
 ## 📄 License
 
