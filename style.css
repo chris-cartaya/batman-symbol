@@ -13,7 +13,7 @@ body {
   align-items: center;      /* cross-axis */
 }
 
-.oval {
+.main-oval {
   width: 230px;
   height: 130px;
   background-color: var(--yellow-logo-color);
@@ -55,7 +55,7 @@ body {
   right: 57px;
 }
 
-.ears {
+#ears {
   position: absolute;
   top: 0;
   left: 94px;
@@ -63,53 +63,46 @@ body {
   border-bottom: 12px solid var(--yellow-logo-color);
   border-left: 6px solid var(--black-logo-color);
   border-right: 6px solid var(--black-logo-color);
-  rotate: 180deg; /* transform: rotate(180deg); */
+  rotate: 180deg;
 }
 
 
 /* BOTTOM PART OF SYMBOL */
 
-.bottom-left-outer-oval { /*bottom-left-outer-oval -> o1*/
+.bottom-outer-ovals {
   position: absolute;
   background-color: var(--yellow-logo-color);
   width: 33px;
   height: 70px;
   border-radius: 50%;
   top: 67px;
+}
+
+#bottom-left-outer-oval {
   left: 44px;
-  rotate: -41deg; /* transform: rotate(-41deg); */
+  rotate: -41deg;
 }
 
-.bottom-right-outer-oval { /*bottom-right-outer-oval -> o2*/
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 33px;
-  height: 70px;
-  border-radius: 50%;
-  top: 67px;
+#bottom-right-outer-oval {
   right: 44px;
-  rotate: 41deg; /* transform: rotate(41deg); */
+  rotate: 41deg;
 }
 
-.bottom-left-inner-oval { /*bottom-left-inner-oval -> o3*/
+.bottom-inner-ovals {
   position: absolute;
   background-color: var(--yellow-logo-color);
   width: 38px;
   height: 70px;
   border-radius: 50%;
   top: 73px;
+}
+
+#bottom-left-inner-oval {
   left: 68px;
-  rotate: -15deg; /* transform: rotate(-15deg); */
+  rotate: -15deg;
 }
 
-.bottom-right-inner-oval { /*bottom-right-inner-oval -> o4*/
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 38px;
-  height: 70px;
-  border-radius: 50%;
-  top: 73px;
+#bottom-right-inner-oval {
   right: 68px;
-  rotate: 15deg; /* transform: rotate(15deg); */
+  rotate: 15deg;
 }
-
