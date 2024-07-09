@@ -19,8 +19,9 @@ This project is inspired by a video from the YouTube channel [One Person Studio]
 
 ### Modifications
 - Removed two extra `div` elements by modifying CSS properties.
-- Grouped common CSS properties to avoid code duplication.
+- Grouped common CSS properties and added shared classes (`ovals`, `top-ovals`, `bottom-ovals`, `bottom-outer-ovals`, `bottom-inner-ovals`) to avoid code duplication.
 - Added `id` attributes to `div` elements to target specific elements in the CSS.
+- Refactored CSS to improve readability and maintainability by organizing properties and using more descriptive class names.
 
 ## Live Demo
 
