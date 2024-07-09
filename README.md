@@ -11,6 +11,10 @@ This project is inspired by a video from the YouTube channel [One Person Studio]
 - Grouped common CSS properties to avoid code duplication.
 - Added `id` attributes to `div` elements to target specific elements in the CSS.
 
+## Live Demo
+
+Check out the live version of this project [here](https://chris-cartaya.github.io/batman-symbol/).
+
 ## Screenshot
 
 ![Batman Logo](images/batman-symbol-screenshot-from-website.jpg)
