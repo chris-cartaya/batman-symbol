@@ -37,23 +37,21 @@ body {
 
 /* TOP PART OF SYMBOL */
 
-.top-left-oval { /*top-left-oval -> o5*/
+.top-ovals {
   position: absolute;
   background-color: var(--yellow-logo-color);
   width: 37px;
   height: 40px;
-  border-radius: 50% 0% 50% 50%;
   top: 0;
+}
+
+#top-left-oval {
+  border-radius: 50% 0% 50% 50%;
   left: 57px;
 }
 
-.top-right-oval { /*top-right-oval -> o6*/
-  position: absolute;
-  background-color: var(--yellow-logo-color);
-  width: 37px;
-  height: 40px;
+#top-right-oval {
   border-radius: 0% 50% 50% 50%;
-  top: 0;
   right: 57px;
 }
 
