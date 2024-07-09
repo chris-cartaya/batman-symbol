@@ -2,6 +2,16 @@
 
 A simple Batman logo created using HTML and CSS.
 
+## Table of Contents
+- [Description](#description)
+- [Live Demo](#live_demo)
+- [Screenshot](#screenshot)
+- [Usage](#usage)
+- [Project Timeline](#project-timeline)
+- [Credits](#credits)
+- [License](#license)
+- [To-Do](#to-do)
+
 ## Description
 
 This project is inspired by a video from the YouTube channel [One Person Studio](https://www.youtube.com/watch?v=iruECu19Nx4) titled "Designing the BATMAN LOGO in HTML and CSS." While following along with the tutorial, I made several modifications to the code, including reducing the number of `div` elements and refactoring the HTML and CSS to improve readability and maintainability.
@@ -36,3 +46,9 @@ Feel free to use this project as a reference for your own HTML and CSS projects 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE.md) file for details.
+
+## 📝 To-Do
+
+- [ ] Fix the tiny bit of yellow visible on the left side of the logo when zooming in on mobile.
+- [ ] Address the faint black line appearing on the "ear" element when zooming in or out.
+- [ ] Refactor CSS to improve responsiveness.
