@@ -72,10 +72,13 @@ body {
 
 /* BOTTOM PART OF SYMBOL */
 
-.bottom-outer-ovals {
-  width: 33px;
+.bottom-ovals {
   height: 70px;
   border-radius: 50%;
+}
+
+.bottom-outer-ovals {
+  width: 33px;
   top: 67px;
 }
 
@@ -91,8 +94,6 @@ body {
 
 .bottom-inner-ovals {
   width: 38px;
-  height: 70px;
-  border-radius: 50%;
   top: 73px;
 }
 
